@@ -1,4 +1,4 @@
 none
 - Libraries used: none
 - Worked alone 
-- AI:none 
+- AI:  I wanted to make my prompt longer and to do that I used google gemini to help brainstrom examples of electrical,plumbing and roofing keywords and to refine my long prompt.

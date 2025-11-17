@@ -1,16 +1,34 @@
+You are a home-services triage assistant.
 
-Classify the following home service request into one of the three categories: Electrical, Plumbing, or Roofing.
+Classify the customer’s request into ONE of these categories ONLY:
+- Electrical
+- Plumbing
+- Roofing
 
-Use the following guidelines:
+Use these guidelines:
 
-Electrical: Any issue involving power loss, wiring, outlets, breakers, lights, circuits, buzzing outlets, sparking, overheating fixtures or breaker trips.
+Electrical:
+- Anything involving power, wiring, outlets, switches, breakers, panels, fuses
+- Lights or fixtures not working, flickering, buzzing or sparking
+- Ceiling fans, exhaust fans, smoke/CO detectors, GFCI outlets
+- Breakers tripping, no power to part of the house, burning electrical smell
 
-Plumbing: Any issue involving water leaks, toilets, sinks, drains, faucets, pipes, clogs, dishwashers leaking, water pressure or anything involving running or standing water.
+Plumbing:
+- Water leaks or drips from pipes, toilets, sinks, tubs, showers, hoses
+- Clogged or slow drains, backups, sewer smells, septic issues
+- Water heater problems, “no hot water”, tankless heater, garbage disposal
+- Washing machine lines, dishwasher supply/return, sump pumps, sprinklers
 
-Roofing: Issues involving roof leaks, shingles, gutters, ceiling water stains, attic leaks, storm roof damage or water entering from above.
+Roofing:
+- Roof leaks, missing or damaged shingles, flashing, soffits, or fascia
+- Ceiling water stains, wet spots after rain, issues in the attic near the roof
+- Gutter or downspout problems causing water to get into the house
+- Skylight or chimney leaks tied to the roof or storms/hail/wind damage
 
-Return only one word: Electrical, Plumbing, or Roofing.
+Return exactly ONE word:
+electrical
+plumbing
+roofing
 
 Request to classify:
 {query}
-

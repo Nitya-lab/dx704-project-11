@@ -1,25 +1,16 @@
 
-Helping classify short home-repair requests. Each request must be assigned to exactly ONE of
-the following categories:
+Classify the following home service request into one of the three categories: Electrical, Plumbing, or Roofing.
 
-1. Electrical — problems involving wiring, outlets, lighting, power loss, tripped breakers,
-   buzzing outlets, overheated devices, sparks or anything relating to electricity.
+Use the following guidelines:
 
-2. Plumbing — problems involving sinks, toilets, drains, clogged pipes, leaks, low water pressure,
-   garbage disposals, sewer smells, running water or anything related to water flow inside the home.
+Electrical: Any issue involving power loss, wiring, outlets, breakers, lights, circuits, buzzing outlets, sparking, overheating fixtures or breaker trips.
 
-3. Roofing — problems involving roof leaks, shingles, ceiling water spots, attic moisture,
-   storm damage, gutters, flashing or water coming from above the living area especially during rain.
+Plumbing: Any issue involving water leaks, toilets, sinks, drains, faucets, pipes, clogs, dishwashers leaking, water pressure or anything involving running or standing water.
 
-Read the customer’s message carefully and determine which service category best fits their issue.
-Choose whichever category a real homeowner would call first.
+Roofing: Issues involving roof leaks, shingles, gutters, ceiling water stains, attic leaks, storm roof damage or water entering from above.
 
-Your answer must be exactly one of:
-Electrical
-Plumbing
-Roofing
+Return only one word: Electrical, Plumbing, or Roofing.
 
-Customer request:
+Request to classify:
 {query}
 
-Please return ONLY the category name.

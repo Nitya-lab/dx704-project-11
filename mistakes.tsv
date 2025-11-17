@@ -1,4 +1,6 @@
 query	target_category	predicted_category
 Water is leaking near the breaker box—do I tighten anything or call someone?	electrical	plumbing
 Ceiling started sagging after last night’s storm, even though the pipes seem fine.	roofing	plumbing
-Dishwasher keeps tripping the breaker every time I run it. Is that normal?	electrical	plumbing
+Small brown stain on bedroom ceiling right under the upstairs shower drain.	plumbing	roofing
+Outlet above the kitchen sink sparked when I turned on the garbage disposal.	plumbing	electrical
+Gutter near the power line is overflowing and splashing water onto the service wire.	roofing	electrical

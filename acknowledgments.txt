@@ -1,0 +1,4 @@
+none
+- Libraries used: none
+- Worked alone 
+- AI:none 

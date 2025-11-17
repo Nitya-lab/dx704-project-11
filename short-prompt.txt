@@ -1,0 +1,2 @@
+Classify the following home service request as Electrical, Plumbing, or Roofing:
+{query}
